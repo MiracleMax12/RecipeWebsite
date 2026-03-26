@@ -1,0 +1,188 @@
+/* Max's CSS File */
+
+@font-face {font-family: 'OpenDyslexic-Regular';
+
+src: url(OpenDyslexic-Regular.otf);
+
+	font-weight: normal;
+
+	font-style: normal;}
+
+h1, h2, h3 {font-family: "Times new roman", garamond, serif;
+
+	font-weight: normal; }
+
+body {
+
+	font-family: times new roman, sans-serif; 
+
+	font-size: 16px;
+
+	line-height: 1.5;
+
+	margin: 0px;
+
+	padding: 0px;
+
+	background: white url(images/bgbeige.png) ; }
+
+p::first-letter { font-size:100%; }
+
+h1 { 
+
+	font-size: 160%; }
+
+h2 { 
+
+	font-size: 130%; }
+
+h3 { 
+
+	font-size: 120%; }
+
+h4 {
+
+	font-size: 110%; }
+
+p, h1, h2, ol, ul {
+
+	margin-top: 0px;
+
+	margin-bottom: 1px; }
+
+ol {
+
+	padding-left:10px;
+
+	margin-left: 30px; }
+
+img {
+
+	padding: 4px;
+
+	border: 1px solid black;
+
+	background-color: black; }
+
+a {
+
+	color: red;
+
+	font-weight: bold;
+
+	text-decoration: none;
+
+	border-bottom: 1px solid #898989;
+
+	padding-bottom: 1px; }
+
+a:visited { 
+
+	color: white; }
+
+a:hover, a:focus, a:active { 
+	
+	background-color: #fff5e8; color: white; border-bottom-color: #fdebcf; }
+
+div#something {
+
+	width: 700px;
+
+	margin-left:auto;
+
+	margin-right: auto;
+
+	margin-top: 10px;
+
+	margin-bottom: 10px;
+
+	background-color: beige;
+
+	background-repeat: repeat-y;
+
+	background-repeat: repeat-x;
+
+	background-position: left top;
+
+	background-attachment: scroll;
+
+	border: 2px dotted black; }
+
+header {
+
+	height: 90px;
+
+	margin: 20px; }
+
+header h1, header p {
+
+	color: white;
+
+	position: relative;
+
+	left: 275px;
+
+	top: 20px; }
+
+header {
+
+	background: white url(images/bgbrown.png) ; }
+
+
+footer {clear: both;
+	
+	padding: 10px; 
+
+	font-size: 75%;
+
+	height:1%;
+
+	background-color: darkred;
+
+	color: White;
+
+	border-top: 2px dotted #464646; }
+
+ul {
+ 	list-style-type: none;
+
+	position: fixed;
+
+	top: 0px;
+
+	width: 99999px;
+
+	right: 0px;
+  
+	margin: 0px;
+  
+	padding: 0px;
+  
+	overflow-x: visible;
+  
+	background-color: darkred; }
+
+ul li {
+ 	float: right; }
+
+ul li a {
+  
+	display: block;
+
+	position: relative;
+
+	top: 0px;
+  
+	color: white;
+  
+	text-align: center;
+  
+	padding: 14px 80px;
+  
+	text-decoration: none; }
+
+ul li a:hover {
+  
+	background-color: #111111; }
+
+
